@@ -1,0 +1,47 @@
+body{
+    background-color: #070809;  
+}
+
+@media screen and (max-width:800px){
+ #city-name{
+    color: #bec3c5;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+ }
+ #weather-icon{
+    width: 12em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+ }
+ .weather-details{
+    color: #bec3c5;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+ }
+ #temperature{
+    font-size: 80px;
+    font-weight: 900;
+ }
+ #type-of-weather{
+    font-size: 25px;
+    font-weight: 500;
+ }
+
+
+
+
+
+
+
+
+}
+    
+
+
+
+
+
