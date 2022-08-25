@@ -1,7 +1,6 @@
 body{
     /* background-color: #1e2329;   */
-    background-color: #2b2b2b;   
-     
+    background-color: #030311;     
     margin: 0;
     font-family: 'Nunito', sans-serif;
   
@@ -35,7 +34,7 @@ html{
  }
  
  ::placeholder {
-   color: #fff;
+   color: white;
    opacity: 0.7; 
  }
  
@@ -54,7 +53,7 @@ html{
    height: 44px;
  }
     #city-name{
-    color: #bec3c5;
+    color: white;
     text-align: center;
     margin: .5em;
  }
@@ -72,7 +71,7 @@ html{
     margin-top: 20px;
  }
  #temperature{
-    font-size: 95px;
+    font-size: 65px;
     font-weight: 900;
  }
  #type-of-weather{
