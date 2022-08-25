@@ -12,16 +12,17 @@
 
     <form role="search" id="form-city-search">
         <input type="search" id="city-search" name="q"
-         placeholder="City"
-         aria-label="Search through site content">
+         placeholder="Search for city">
         <button>
           <svg viewBox="0 0 1024 1024" id="search-icon"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
         </button>
       </form>
    
 
+      <!-- city of weather data being shown -->
     <h1 id="city-name">Calgary</h1>
 
+    <!-- main weather icon for the day -->
     <img src="/weather icons/cloud/17.png" alt="picture of weather icon" id="weather-icon">
 
     <ul class="weather-details">
@@ -29,6 +30,8 @@
         <li id="type-of-weather">Thunderstorms</li>
     </ul>
 
+
+    <!-- weather details for the day in detail -->
     <div class="weather-information">
         <ul class="list-of-weather-details">
             <li><img src="/weather icons/wind/Breeze free3dicon.com.png" alt="picture of wind icon from httpsfree3dicon.com" class="wind-icon"></li>
@@ -46,32 +49,6 @@
             <li>Rain</li>
         </ul>
     </div>
-
-    <div id="days-forecast">
-        <ul class="list-of-weather-forecast">
-            <li>14&deg;</li>
-            <li><img src="/weather icons/cloud/32.png" alt="" id="forecast-weather"></li>
-            <li>Thu, Aug 25</li>
-        </ul>
-        <ul class="list-of-weather-forecast">
-            <li>24&deg;</li>
-            <li><img src="/weather icons/sun/30.png" alt="" id="forecast-weather"></li>
-            <li>Fri, Aug 26</li>
-        </ul>
-        <ul class="list-of-weather-forecast">
-            <li>18&deg;</li>
-            <li><img src="/weather icons/cloud/7.png" alt="" id="forecast-weather"></li>
-            <li>Sat, Aug 27</li>
-        </ul>
-        <ul class="list-of-weather-forecast">
-            <li>17&deg;</li>
-            <li><img src="/weather icons/sun/8.png" alt="" id="forecast-weather"></li>
-            <li>Sat, Aug 27</li>
-        </ul>
-    </div>
-   
-    
-
 
     <script src="script.js"></script>
 </body>
