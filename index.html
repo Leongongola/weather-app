@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +10,32 @@
 </head>
 <body>
 
-    <form role="search" id="form-city-search">
-        <input type="search" id="city-search" name="q"
+    <!-- <form role="search" id="form-city-search">
+        <input type="search" id="city-search" 
          placeholder="Search for city">
         <button>
           <svg viewBox="0 0 1024 1024" id="search-icon"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
         </button>
-      </form>
+      </form> -->
    
 
       <!-- city of weather data being shown -->
-    <h1 id="city-name">Calgary</h1>
+    <div id="city-name">Calgary</div>
+
+    <div class="todays-weather">
+        Today's Weather
+    </div>
 
     <!-- main weather icon for the day -->
-    <img src="/weather icons/cloud/17.png" alt="picture of weather icon" id="weather-icon">
+    <img src="/images/weather icons/" alt="picture of weather icon" id="weather-icon">
 
-    <ul class="weather-details">
-        <li id="temperature">23°C</li>
-        <li id="type-of-weather">Thunderstorms</li>
-    </ul>
+    <div class="weather-details">
+        <div class="temperature-container">
+            <div id="temperature">23</div>
+            <div class="degree-sign">°C</div>
+        </div>
+        <div id="type-of-weather">Thunderstorms</div>
+    </div>
 
 
     <!-- weather details for the day in detail -->
@@ -50,6 +57,6 @@
         </ul>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
