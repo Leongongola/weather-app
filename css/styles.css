@@ -55,13 +55,25 @@ html{
     #city-name{
     color: white;
     text-align: center;
-    margin: .5em;
+    margin-top: 2em;
+    font-size: 19px;
+ }
+ .todays-weather{
+   color: white;
+   margin-left: 2em;
  }
  #weather-icon{
     width: 14em;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+ }
+ .temperature-container{
+   display: flex;
+   justify-content: center;
+ }
+ .degree-sign{
+   padding-top: 15px;
+   color: #eda329;
  }
  .weather-details{
     color: #bec3c5;

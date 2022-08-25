@@ -1,3 +1,9 @@
+document.getElementById("search-icon").addEventListener("click", function (){
+    weather.search();
+    
+    })
+    
+
 let weather ={
     apiKey: "84ff045ff659866878158ecff63b7963",
     fetchWeather: function (city) {
@@ -20,6 +26,9 @@ let weather ={
        document.getElementById("wind").innerText = `${speed} km/h`;
        document.getElementById("temperature").innerText = `${Math.floor(temp)}°C`;
        document.getElementById("humidity").innerText = `${humidity}%`
-
+    },
+    search: function (){
+        this.fetchWeather(document.getElementById("city-search").value);
     }
 }
+
