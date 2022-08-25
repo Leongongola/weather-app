@@ -128,33 +128,7 @@ html{
  .forecast-weather{
    width: 1.5em;
  }
- .list-of-weather-forecast{
-   padding: 5px;
-   margin: 5px;
-   list-style: none;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   text-align: center;
-   height: 6em;
-
-   backdrop-filter: blur(16px) saturate(200%);
-   -webkit-backdrop-filter: blur(16px) saturate(200%);
-   background-color: rgba(209, 213, 219, 0.1);
-   border-radius: 18px;
-   border: 1px solid rgba(209, 213, 219, 0.2);
- }
- .list-of-weather-forecast > li{
-   margin: 2px 0;
- }
- #days-forecast{
-   display: flex;
-   justify-content: space-between;
-   color: #bec3c5;
-   width: 90%;
-   margin: 0 auto;
-   margin-top: 20px;
- }
+ 
 
 
 
