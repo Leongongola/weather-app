@@ -1,7 +1,7 @@
-document.getElementById("search-icon").addEventListener("click", function (){
-    weather.search();
+// document.getElementById("search-icon").addEventListener("click", function (){
+//     weather.search();
     
-    })
+//     })
     
 
 let weather ={
