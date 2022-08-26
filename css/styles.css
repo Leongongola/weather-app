@@ -28,3 +28,6 @@ body{
   border-radius: 20px;
   border-style: none;
 }
+.get-started-button:hover{
+  background-color: rgb(59, 144, 214);
+}

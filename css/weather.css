@@ -20,14 +20,20 @@ html{
  #search-container{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     margin-top: 2em;
  }
+ #search-bar{
+   color: #030311;
+   background-color: white;
+   border-radius: 15px;
+   height: 25px;
+   text-align: center;
+   font-size: 18px;
+   border-style: none;
+ }
  #search-icon{
-   fill: currentColor;
-   width: 24px;
-   height: 24px;
-   padding: 10px;
-   background-color: #030311;
+color: orange;
  }
  
 #city-name{
