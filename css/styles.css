@@ -18,16 +18,16 @@ body{
   text-decoration: none;
   color: white;
   font-size: 18px;
-}
-.get-started-button{
   display: block;
   margin: 0 auto;
   margin-top: 5em;
   background-color: rgb(17, 110, 187);
-  padding: 1.5em 4em;
+  padding: 1em 3em;
   border-radius: 20px;
   border-style: none;
+  width: 10vw;
+  text-align: center;
 }
-.get-started-button:hover{
+.get-started:hover{
   background-color: rgb(59, 144, 214);
 }

@@ -13,8 +13,9 @@ let weather ={
        const {icon, description} = data.weather[0];
        const {temp, humidity, temp_max, temp_min} = data.main;
        const {speed} = data.wind;
+       const {visibility} = data;
 
-       console.log(name, icon, temp, humidity, speed, description);
+       console.log(name, icon, temp, humidity, speed, description, visibility);
 
        document.getElementById("city-name").innerText = name;
        document.getElementById("type-of-weather").innerText = description;
@@ -24,10 +25,11 @@ let weather ={
        document.getElementById("temp-high").innerText = `${Math.floor(temp_max)}`;
        document.getElementById("temp-low").innerText = `${Math.floor(temp_min)}`;
        document.getElementById("weather-icon").src = icon;
-
-       console.log(icon);
+       document.getElementById("fog").innerText = `${visibility/1000}km`;
+       
+      
         
-    if( icon == "01d") {
+    if ( icon == "01d"){
         "/images/weather icons/Sun 1.png";
 
     } else if (icon == "01n") {
@@ -93,6 +95,8 @@ let weather ={
     else if (icon === "50n") {
         "/images/weather icons/Light Fog.png";
     }
+
+   
 
        
     },

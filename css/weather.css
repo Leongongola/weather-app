@@ -9,32 +9,33 @@ html{
     min-height: 100vh;
 }
  
- #city-search {
-   all: unset;
-   font: 17px system-ui;
-   height: 100%;
-   width: 100%;
-   padding: 6px 10px;
-   text-align: center;
- }
  #search-container{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 2em;
+  border-style: none;
+  width: 33vw;
  }
  #search-bar{
-   color: #030311;
-   background-color: white;
-   border-radius: 15px;
-   height: 25px;
-   text-align: center;
-   font-size: 18px;
-   border-style: none;
+  background-color: rgba(255, 255, 255, 0.17);
+  border-style: none;
+  font-size: 18px;
+  border-radius: 16px;
+  color: white;
+  text-align: center;
  }
- #search-icon{
-color: orange;
+ .search-image-icon{
+  width: 1.5em;
+  padding: .5em;
  }
+ #search-button{
+  background-color: rgba(255, 255, 255, 0.17);
+  border-style: none;
+  border-radius: 16px;
+  margin-left: .5em;
+ }
+
  
 #city-name{
     color: white;
@@ -121,8 +122,8 @@ color: orange;
     display: block;
     margin: 0 auto;
  }
- .rain-icon{
-    width: 2em;
+ .fog-icon{
+    width: 2.3em;
     display: block;
     margin: 0 auto;
  }
