@@ -19,7 +19,7 @@ let weather ={
 
        document.getElementById("city-name").innerText = name;
        document.getElementById("type-of-weather").innerText = description;
-       document.getElementById("wind").innerText = `${speed} km/h`;
+       document.getElementById("wind").innerText = `${speed}km/h`;
        document.getElementById("temperature").innerText = `${Math.floor(temp)}`;
        document.getElementById("humidity").innerText = `${humidity}%`;
        document.getElementById("temp-high").innerText = `${Math.floor(temp_max)}`;
