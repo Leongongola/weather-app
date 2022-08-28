@@ -24,7 +24,7 @@ let weather ={
        document.getElementById("humidity").innerText = `${humidity}%`;
        document.getElementById("temp-high").innerText = `${Math.floor(temp_max)}`;
        document.getElementById("temp-low").innerText = `${Math.floor(temp_min)}`;
-       document.getElementById("weather-icon").innerText = icon;
+       document.getElementById("weather-icon").src= icon;
        document.getElementById("fog").innerText = `${visibility/1000}km`;
        
       
