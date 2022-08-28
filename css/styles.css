@@ -15,18 +15,16 @@ body{
   font-size: 2em;
 }
 .get-started{
+  display: block;
+  text-align: center;
   text-decoration: none;
   color: white;
-  font-size: 18px;
-  display: block;
+  background-color: #2a60df;
+  width: fit-content;
   margin: 0 auto;
   margin-top: 5em;
-  background-color: rgb(17, 110, 187);
   padding: 1em 3em;
-  border-radius: 20px;
-  border-style: none;
-  width: 10vw;
-  text-align: center;
+  border-radius: 16px;
 }
 .get-started:hover{
   background-color: rgb(59, 144, 214);

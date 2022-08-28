@@ -28,7 +28,7 @@ let weather ={
        document.getElementById("fog").innerText = `${visibility/1000}km`;
        
       
-    if ( icon == "01d"){
+    if ( icon === "01d"){
         "/images/weather icons/Sun 1.png";
 
     } else if (icon === "01n") {
