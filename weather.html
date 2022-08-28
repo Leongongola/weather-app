@@ -20,7 +20,7 @@
     
       <div id="search-container">
         <input type="text" id="search-bar" required>
-        <button><img src="/images/search icon/search icon.png" alt=""></button>
+        <button id="search-button"><img src="/images/search icon/search icon.png" alt="button of search icon"></button>
       </div>
 
       <!-- city of weather data being shown -->
@@ -34,7 +34,22 @@
         <div class="temperature-container">
             <div id="temperature">23</div>
             <div class="degree-sign">°C</div>
-        </div>
+            <div>
+                <div class="temperature-container-2"> 
+                    <div id="temperature-2"> High 
+                        <p id="temp-high">23</p> 
+                    </div>
+                    <div class="degree-sign-2">°C</div>
+                </div>
+                <div class="temperature-container-3"> 
+                    <div id="temperature-2">Low 
+                        <p id="temp-low">23</p> 
+                    </div>
+                    <div class="degree-sign-2">°C</div>
+                </div>
+            </div> 
+        </div>    
+    </div>
         <div id="type-of-weather">Thunderstorms</div>
     </div>
 
@@ -57,6 +72,7 @@
             <li>Rain</li>
         </ul>
     </div>
+
 
     <script src="/js/script.js"></script>
 </body>

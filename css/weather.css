@@ -56,9 +56,30 @@ color: orange;
    display: flex;
    justify-content: center;
  }
+ .temperature-container-2{
+   display: flex;
+   justify-content: center;
+   padding: 1.3em 0 0 1.3em;
+ }
+ .temperature-container-3{
+   display: flex;
+   justify-content: center;
+   padding: 0 0 0 1.3em;
+ }
+ #temperature-2{
+   font-size: 2em;
+   display: flex;
+ }
  .degree-sign{
    padding-top: 15px;
    color: #eda329;
+ }
+ .degree-sign-2{
+   color: #eda329;
+ }
+ #temp-high, #temp-low{
+   margin: 0;
+   margin-left: 10px;
  }
  .weather-details{
     color: #bec3c5;
@@ -74,6 +95,8 @@ color: orange;
  #type-of-weather{
     font-size: 25px;
     font-weight: 500;
+    text-align: center;
+    color: white;
  }
 .weather-information{
     display: flex;
